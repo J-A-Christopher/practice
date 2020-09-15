@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* color: white; */
+  background-image: url('./img/pexels-cottonbro-4254033.jpg');
+  background-size: cover;
+  color: white;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.top{
+  height: 45vh;
+ 
+}
+
+h3{
+  text-align: center;
+}
+
+h4{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+}
+
+.nav ul li {
+  float: right;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-decoration: none;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.text{
+  margin: auto;
+  width: 400px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.text h5{
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.btn a{
+  margin-left: 500px;
+  margin-top: 50px;
+ padding: 10px 25px;
+ border: 1px solid white;
+ width: 90px;
+ color: white;
+}
+
+
+.library{
+  width: 350px;
+  margin: auto;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.library h4{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.library a{
+  padding: 8px 35px;
+  border: 1px solid white;
+  background-color: white;
+  color: rgb(6, 39, 6);
+  font-size: 15px;
+}
+
+.library p{
+  margin-bottom: 20px;
+}
+
+.footer p{
+  margin-top: 150px;
+  /* width: 60px;  */
+  /* margin: auto;  */
+  text-align: center; 
+}
+
+
+
+@media(max-width:760px) {
+  body{
+    background:url('./img/pexels-cottonbro-4254033.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .btn a{
+    margin-left: 100px;
+  }
+
+  .footer p{
+    margin-top: 120px;
+    width: 30px; 
+    margin: auto; 
+    text-align: center; 
+  }
+}
+
+@media(max-width:320px) {
+  body{
+    background: url('./img/pexels-cottonbro-4254033.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .btn a{
+    margin: 100px 50px;
+    padding: 0px 1px;
+
+  }
+
+  .library a{
+    padding-top: 20px;
+  }
+
+  .library p{
+    margin-top: 80px;
+  }
+
+  .footer p{
+    margin-top: 150px;
+    /* width: 60px;  */
+    /* margin: auto;  */
+    text-align: center; 
+  }
+  
+}
